@@ -15,7 +15,7 @@
 import fetch from 'node-fetch';
 
 const GEMINI_API = 'https://generativelanguage.googleapis.com/v1beta/models';
-const MODEL = 'gemini-2.0-flash'; // Fast, cheap, great at structured extraction
+const MODEL = 'gemini-2.5-flash'; // Fast, cheap, great at structured extraction
 
 /**
  * Parse rendered HTML from a reservation platform and extract
