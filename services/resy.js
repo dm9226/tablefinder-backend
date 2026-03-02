@@ -9,7 +9,7 @@ import fetch from 'node-fetch';
 import { getCityCoords } from '../utils/url-builder.js';
 
 const RESY_API = 'https://api.resy.com';
-const RESY_API_KEY = 'VbWk7s3L4KiK5fhm7e8pSOAREisPhDbL'; // Public widget key
+const RESY_API_KEY = 'VbWk7s3L4KiK5fzlO7JD3Q5EYolJI7n5'; // Public widget key
 
 export async function searchResy({ location, cuisine, date, partySize }) {
   const startTime = Date.now();
